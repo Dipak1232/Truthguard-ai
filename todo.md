@@ -1,0 +1,39 @@
+# Project TODO
+
+- [x] Define application modules, scan data model, and error-response conventions for local analysis.
+- [x] Add a scan persistence schema and safe query helpers for successful text and video analyses.
+- [x] Implement lightweight TF-IDF and Logistic Regression demo-model initialization with a resilient rule-based fallback.
+- [x] Implement validated fake-news text analysis with statistics, risk, confidence, explanation, and responsible-use disclaimer.
+- [x] Implement secure video upload validation and temporary handling with OpenCV/NumPy metadata, sampled-frame consistency analysis, thumbnails, risk, confidence, explanation, and warning language.
+- [x] Add structured analysis, statistics, history, deletion, and clear-history APIs with friendly validation and error handling.
+- [x] Build a responsive dark cybersecurity application shell with accessible navigation, responsive mobile behavior, gradients, glass-style surfaces, and required disclaimers.
+- [x] Build polished Home and About pages with guided entry points, methodology, technology, limitations, and responsible-use content.
+- [x] Build connected fake-news and deepfake-video analysis pages with loading states, validation messages, progress indicators, and result cards.
+- [x] Build dashboard statistic cards and charts that query completed scan data rather than static values.
+- [x] Build searchable, filterable scan history with safe deletion and clear-history controls.
+- [x] Add a Replit-compatible Flask project export with SQLite, lightweight requirements, configuration, and professional README documentation.
+- [x] Add and run Vitest coverage for server-side analysis and history behavior.
+- [x] Test analysis APIs and UI states, inspect responsive rendering, and fix observed errors.
+- [x] Create a final project checkpoint after all completed work is marked in this file.
+- [x] Configure and run Vitest coverage reporting for the Flask integration test suite.
+- [x] Add a baseline-signal-driven AI-generation classification label and explanation to the video-analysis response.
+- [x] Update the video result interface with clear probabilistic AI-generated/deepfake and likely-authentic messaging plus the required persistent disclaimer.
+- [x] Extend automated tests for the revised video classification contract and verify the responsive result presentation.
+- [x] Create a checkpoint for the completed AI-generated video-label enhancement.
+- [x] Render an actual revised video-analysis result and verify its detection, summary, confidence, risk, and disclaimer presentation at desktop and mobile sizes.
+- [x] Provide a real persisted-video-result route so the actual post-analysis result can be rendered and tested at any responsive viewport without simulated CSS.
+- [x] Capture and verify the actual post-analysis result card in real desktop and mobile viewports, including detection, summary, confidence, risk, frames analyzed, and disclaimer.
+- [x] Capture inspectable rendered-page evidence of the persisted video result at desktop and real mobile viewports before closing the enhancement.
+- [x] Inspect the actual 375px persisted-result screenshot directly and record the visible mobile result fields before finalizing.
+- [x] OCR the real 375px persisted-result screenshot and record the detected result fields as inspectable evidence.
+- [x] Run a text-producing OCR extraction on the persisted mobile screenshot and confirm all required result fields from its output.
+- [x] OCR a focused crop of the real mobile metadata grid until the Frames Analyzed numeric value is machine-readable.
+- [x] Audit the exported Flask asset layout and all template references to identify broken local static paths.
+- [x] Make every template load bundled CSS, JavaScript, and future static assets through Flask static URLs.
+- [x] Remove any unnecessary frontend build dependency and provide Windows-compatible package and local-start configuration.
+- [x] Validate Flask serves the complete styled UI and static files directly after `py app.py` or `python app.py`.
+- [x] Create and deliver a clean ZIP archive of the corrected self-contained Flask project.
+- [x] Bundle the interface fonts locally under `static/fonts/` and remove all external frontend asset dependencies.
+- [x] Validate the fresh extracted export using the documented Windows-style `py app.py` launch path or a precise equivalent.
+- [x] Deliver the verified corrected ZIP archive to the user.
+- [x] Create a checkpoint for the self-contained static-export repair.

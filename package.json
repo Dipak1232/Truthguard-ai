@@ -1,0 +1,19 @@
+{
+  "name": "truthguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python app.py",
+    "start": "python app.py",
+    "start:windows": "py app.py",
+    "build": "echo 'TruthGuard AI is a Flask application; no frontend bundle is required.'",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@vitest/coverage-v8": "^2.1.4",
+    "vitest": "^2.1.4"
+  }
+}
